@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UseRef from './useRef';
+import UseContext from './useContext/useContext';
+import UseCallback from './useCallback';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <UseRef/> */}
+    {/* <UseContext/> */}
+    <UseCallback/>
   </React.StrictMode>,
   document.getElementById('root')
 );
